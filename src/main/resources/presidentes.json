@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pres1",
+    "nome": "Emmanuel Macron",
+    "idade": 46,
+    "partido": "Renaissance"
+  },
+  {
+    "id": "pres2",
+    "nome": "Joe Biden",
+    "idade": 81,
+    "partido": "Demócrata"
+  },
+  {
+    "id": "pres3",
+    "nome": "Lula da Silva",
+    "idade": 78,
+    "partido": "PT"
+  }
+]
+

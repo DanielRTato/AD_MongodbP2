@@ -1,0 +1,35 @@
+[
+  {
+    "id": "pais1",
+    "nome": "Francia",
+    "organizacion": "República Semipresidencialista",
+    "partidos": [
+      "Renaissance",
+      "Rassemblement National",
+      "La France Insoumise"
+    ],
+    "id_presidente": "pres1"
+  },
+  {
+    "id": "pais2",
+    "nome": "Estados Unidos",
+    "organizacion": "República Federal",
+    "partidos": [
+      "Demócrata",
+      "Republicano",
+      "Libertario"
+    ],
+    "id_presidente": "pres2"
+  },
+  {
+    "id": "pais3",
+    "nome": "Brasil",
+    "organizacion": "República Federal",
+    "partidos": [
+      "PT",
+      "PL",
+      "União Brasil"
+    ],
+    "id_presidente": "pres3"
+  }
+]
