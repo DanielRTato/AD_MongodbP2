@@ -47,8 +47,6 @@ public class PresidenteService {
         return lista;
     }
 
-
-
     public void borrarPresidentes() {
         presidenteRepo.deleteAll();
     }

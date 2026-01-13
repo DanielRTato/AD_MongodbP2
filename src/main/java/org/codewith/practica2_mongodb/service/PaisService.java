@@ -22,7 +22,6 @@ public class PaisService {
     public void crearPais(Pais pais) {
         paisRepo.save(pais);
     }
-
     public List<Pais> buscarPaises() {
         return paisRepo.findAll();
     }
@@ -32,14 +31,11 @@ public class PaisService {
             Type listType = new com.google.gson.reflect.TypeToken<List<Pais>>() {
             }.getType();
             List<Pais> list_pais = new Gson().fromJson(reader, listType);
-
             return paisRepo.saveAll(list_pais);
         }
     }
-
     public void modificarOrganizacionPais(String idPais, String nuevaOrganizacion) {
         Pais pais = paisRepo.findById(idPais).orElse(null);
-
         if (pais != null) {
             pais.setOrganizacion(nuevaOrganizacion);
             paisRepo.save(pais); // Al guardar con el mismo ID, machaca el dato anterior (Update)
@@ -48,7 +44,6 @@ public class PaisService {
             System.out.println("No se encontró el país con ID: " + idPais);
         }
     }
-
     public void borrarPasises() {
         paisRepo.deleteAll();
     }
